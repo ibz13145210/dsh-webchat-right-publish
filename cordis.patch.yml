@@ -1,0 +1,10 @@
+# dsh-webchat-right bundle patch
+#
+# 本包是 @jaychang1989/dsh-webchat 0.7.8 的本地分支：宿主半边（登录快照路由）
+# 直接复用上游包，客户端半边改成「侧栏底部入口 + 右侧栏标签页」。
+#
+# `name` 必须与 package.json 的 name 逐字相等：dsh-client-modules 用
+# 「行名 == 包名」判定客户端模块归属，对不上会静默丢弃浏览器半边。
+- insert:
+    - id: webchat-right
+      name: '@local/dsh-webchat-right'

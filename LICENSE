@@ -1,0 +1,44 @@
+# LICENSE
+
+This software is licensed under the Apache License, Version 2.0.
+
+© 2026 ibz13145210. All rights reserved.
+
+This software is a fork of @jaychang1989/dsh-webchat 0.7.8, which is licensed under the Apache License, Version 2.0.
+The original work is Copyright its authors, including jaychang1989 and xmuwenxiang (original dsh-web-chat).
+
+Both halves are copied from upstream and adapted. The host half keeps the
+Electron cookie snapshot that preserves the chat.deepseek.com login across
+restarts, the external link route, and the window fallback; its shell
+(chrome-less Edge/Chrome window) strategy and the legacy snapshot migration
+were dropped, and the Electron-window strategy now falls back to the system
+browser directly. The browser half moved the entry to the sidebar foot and the
+page from the center column to a right-sidebar tab.
+
+Changes from upstream (browser half only):
+   - `sidebar.panellist` entry replaced by a `sidebar.footer.action` entry;
+   - `main` panel replaced by a `sidebarRightTabs` type plus a
+     `sidebar.right.pane.tab` body, opened with `ctx.sidebarRight.openTab`;
+   - the persistent guest is now claimed per visible body, so several
+     `keepMounted` tab bodies can coexist without fighting over its geometry;
+   - the `main` panel remains as a fallback when no right sidebar is available.
+
+## License
+
+This software is licensed under the Apache License, Version 2.0.
+
+Copyright © 2026 ibz13145210. All rights reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+© 2026 ibz13145210. All rights reserved.

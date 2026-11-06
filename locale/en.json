@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Chat DeepSeek (right sidebar)",
+    "description": "A sidebar-foot entry that opens chat.deepseek.com in a right-sidebar tab through the native browser guest, with the login kept across restarts."
+  }
+}

@@ -1,0 +1,48 @@
+﻿
+
+    目录: E:\DeepSeek_Web\dsh-webchat-right-publish
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         2026/11/6     11:41                lib                                                                  
+d-----         2026/11/6     11:41                locale                                                               
+d-----         2026/11/6     11:43                scripts                                                              
+-a----         2026/11/4     15:19            481 cordis.patch.yml                                                     
+-a----         2026/11/4     15:19            329 icon.svg                                                             
+-a----         2026/11/4     15:46           1288 NOTICE                                                               
+-a----         2026/11/4     19:33           1039 package.json                                                         
+-a----         2026/11/6     14:10              0 publish-summary.txt                                                  
+-a----         2026/11/6     11:44           2543 QUICKSTART.md                                                        
+-a----         2026/11/6     11:41           4744 README.md                                                            
+-a----         2026/11/6     11:42           6101 USAGE-EN.md                                                          
+-a----         2026/11/6     11:42           5765 USAGE.md                                                             
+
+
+    目录: E:\DeepSeek_Web\dsh-webchat-right-publish\lib
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         2026/11/4     19:26          45662 client.js                                                            
+-a----         2026/11/4     19:33          28332 index.js                                                             
+
+
+    目录: E:\DeepSeek_Web\dsh-webchat-right-publish\locale
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         2026/11/4     15:19            231 en.json                                                              
+-a----         2026/11/4     15:19            195 zh.json                                                              
+
+
+    目录: E:\DeepSeek_Web\dsh-webchat-right-publish\scripts
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         2026/11/6     11:43           3988 apply-persist.ps1                                                    
+-a----         2026/11/6     11:43           5835 persist-partition.ps1                                                
+
+

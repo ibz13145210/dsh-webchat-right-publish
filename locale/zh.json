@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Chat DeepSeek（右侧栏）",
+    "description": "侧栏底部入口，在右侧栏以原生浏览器访客打开 chat.deepseek.com，登录跨重启保留。"
+  }
+}

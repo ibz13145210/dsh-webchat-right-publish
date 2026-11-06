@@ -1,0 +1,46 @@
+{
+  "name": "dsh-webchat-right",
+  "version": "0.7.8-local.13",
+  "private": true,
+  "description": "把 chat.deepseek.com 放进右侧栏并保留登录：侧栏底部入口 + 右侧栏标签页，复用上游 dsh-webchat 的宿主半边与登录快照。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/**/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "NOTICE",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-sidebar-right"
+      ]
+    }
+  },
+  "license": "Apache-2.0",
+  "author": "ibz13145210",
+  "contributors": [
+    "jaychang1989"
+  ]
+}
